@@ -1,0 +1,8 @@
+---
+- name: base
+  src: https://github.com/cloud-bootstrap/ansible-role-base
+  version: "1.0.0"
+
+- name: docker
+  src: mongrelion.docker
+  version: master
