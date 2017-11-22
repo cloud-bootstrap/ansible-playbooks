@@ -9,7 +9,7 @@ setup:: ## Download all roles
 
 run:: setup ## Run a Playbook
 	@echo "Running Playbook $(PLAYBOOK_NAME)"
-	@ansible-playbook -v -i "localhost," -c local $(PLAYBOOK_NAME)
+	@ansible-playbook -vvv -i "localhost," -c local $(PLAYBOOK_NAME)
 
 # A help target including self-documenting targets (see the awk statement)
 help: ## This help target
