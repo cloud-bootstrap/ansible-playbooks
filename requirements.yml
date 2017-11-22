@@ -4,5 +4,5 @@
   version: "1.0.0"
 
 - name: docker
-  src: mongrelion.docker
-  version: master
+  src: https://github.com/cloud-bootstrap/ansible-role-docker
+  version: dockerd
