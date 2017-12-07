@@ -1,6 +1,10 @@
 SHELL 				:=/bin/bash
 ROOT_DIR			:=$(shell pwd)
 
+export http_proxy = $(HTTP_PROXY)
+export https_proxy = $(HTTPS_PROXY)
+export no_proxy = $(NO_PROXY)
+
 .PHONY: help
 
 setup:: ## Download all roles
