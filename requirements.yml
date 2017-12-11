@@ -3,6 +3,10 @@
   src: https://github.com/cloud-bootstrap/ansible-role-base
   version: "1.0.0"
 
+- name: users
+  src: https://github.com/cloud-bootstrap/ansible-role-user
+  version: master
+
 - name: docker
   src: https://github.com/cloud-bootstrap/ansible-role-docker
   version: dockerd
