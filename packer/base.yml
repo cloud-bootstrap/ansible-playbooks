@@ -6,4 +6,4 @@
   roles:
     - base
     - role: docker
-      docker_version: 17.06
+      docker_version: 17.03
