@@ -4,7 +4,6 @@
   become_user: root
   gather_facts: yes
   roles:
-    - base
     - users
     - role: docker
       docker_version: 17.06
