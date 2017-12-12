@@ -7,3 +7,4 @@
     - base
     - role: docker
       docker_version: 17.03
+      setup_script_md5_sum: no
