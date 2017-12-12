@@ -9,7 +9,7 @@ export no_proxy = $(NO_PROXY)
 
 setup:: ## Download all roles
 	@echo "Downloading all roles"
-	@ansible-galaxy install -p roles -r requirements.yml
+	@ansible-galaxy install -p $(dir $(PLAYBOOK_NAME))/roles -r requirements.yml
 
 run:: setup ## Run a Playbook
 	@echo "Running Playbook $(PLAYBOOK_NAME)"
