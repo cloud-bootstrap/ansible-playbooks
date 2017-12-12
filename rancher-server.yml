@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  become_user: root
+  gather_facts: yes
+  roles:
+    - users
+    - role: docker
+      docker_version: 17.03
+    - role: rancher-server

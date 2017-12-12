@@ -10,3 +10,7 @@
 - name: docker
   src: https://github.com/cloud-bootstrap/ansible-role-docker
   version: dockerd
+
+- name: rancher-server
+  src: https://github.com/cloud-bootstrap/ansible-role-rancher-server
+  version: master
